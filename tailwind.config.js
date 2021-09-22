@@ -14,4 +14,9 @@ module.exports = {
       content: ['Nunito', 'sans-serif'],
     },
   },
+  variants: {
+    extend: {
+      textColor: ['even', 'odd'],
+    },
+  },
 }

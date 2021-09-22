@@ -1,8 +1,10 @@
 <template>
-  <div class="rubric-section">
-    <div class="m-6">
+  <div class="rubric-section collapse collapse-arrow">
+    <input type="checkbox" />
+    <div class="collapse-title">
       <h1 class="text-4xl my-4 heading">{{ name }}</h1>
-      <p class="text-2xl font-sub"></p>
+    </div>
+    <div class="collapse-content">
       <slot />
     </div>
   </div>

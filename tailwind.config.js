@@ -1,19 +1,16 @@
 module.exports = {
   theme: {
     colors: {
-      primary: '#212429',
-      secondary: '#133727',
-      ternary: '#56dca1',
+      // primary: '#212429',
+      // secondary: '#133727',
+      ternary: '#ab328f',
       quaternary: '#3da175',
-      // Blue-Pink
+      // Blue-Salmon
       quinary: '#4FB0AC',
       senary: '#B04F53',
-      // Green-Purple
-      septenary: '#9031CE',
-      octonary: '#6FCE31',
-      // Blue-Gold
-      nonary: '#4775B8',
-      denary: '#B88A47',
+      // Green-Pink
+      septenary: '#22DD67',
+      octonary: '#DD2298',
     },
     fontFamily: {
       body: ['JetBrains Mono', 'monospace'],
@@ -26,4 +23,5 @@ module.exports = {
       textColor: ['even', 'odd'],
     },
   },
+  plugins: [require('daisyui')],
 }

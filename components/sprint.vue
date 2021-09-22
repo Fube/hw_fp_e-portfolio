@@ -1,7 +1,12 @@
 <template>
-  <div>
-    <h1 class="text-6xl text-quaternary">{{ name }}</h1>
-    <slot />
+  <div class="collapse collapse-arrow">
+    <input type="checkbox" />
+    <div class="collapse-title text-xl font-medium">
+      <h1 class="collapse-title text-6xl text-quaternary">{{ name }}</h1>
+    </div>
+    <div class="collapse-content">
+      <slot />
+    </div>
   </div>
 </template>
 

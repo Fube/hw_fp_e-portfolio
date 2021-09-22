@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center bg-primary min-h-full font-body pt-6">
+  <div class="text-center h-full font-body pt-6">
     <header class="">
       <h1 class="inline text-6xl text-quinary">Nariman</h1>
       &nbsp;
@@ -18,13 +18,6 @@
   </div>
 </template>
 
-<style>
-body,
-html {
-  @apply bg-primary;
-}
-</style>
-
 <script lang="ts">
 'use strict'
 import Vue from 'vue'
@@ -32,7 +25,6 @@ import Vue from 'vue'
 export default Vue.extend({
   asyncData: async function ({ $content }) {
     const sprints = await $content('sprints').sortBy('slug').fetch()
-    console.log(sprints)
     return { sprints }
   },
 })

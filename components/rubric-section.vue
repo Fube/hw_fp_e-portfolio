@@ -10,7 +10,7 @@
 
 <style>
 p {
-  @apply even:text-nonary odd:text-denary;
+  @apply even:text-quinary odd:text-senary;
 }
 .rubric-content {
   @apply my-2 ml-4 font-content text-2xl;

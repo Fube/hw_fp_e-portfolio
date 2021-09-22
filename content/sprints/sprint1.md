@@ -1,4 +1,5 @@
-<h1 class="text-6xl">Sprint One<h1>
+<sprint :name="'Sprint One'">
+
 <rubric-section :name="'User Story'">
     <div class="rubric-content">
         <p>I did a pretty poor job on the user stories</p>
@@ -78,3 +79,4 @@
         <p>I should have divided the tasks better. I should have made more configuration stories to avoid overextending my stories' bounds</p>
     </div>
 </rubric-section>
+</sprint>

@@ -12,7 +12,7 @@
         v-for="sprint of sprints"
         :key="sprint.slug"
       >
-        <nuxt-content :document="sprint"></nuxt-content>
+        <nuxt-content :document="sprint" />
       </section>
     </main>
   </div>

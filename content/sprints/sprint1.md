@@ -61,6 +61,9 @@
     <div class="rubric-content">
         <p>I am 100% sure that my story can be deployed through the CI/CD pipelines we have set-up</p>
         <p>I did not partake in the deployment of my microservice to AWS (was there even a deployment?)</p>
+        <p>I changed the Dockerfile to a multi-stage, builder pattern, Dockerfile</p>
+        <p>I requested that all the other teams to also change their Dockerfiles to make deployment simpler though I do not think all teams complied with my request</p>
+        <p>I gave a short lecture about multi-stage Dockerfiles because no one knew what they were</p>
     </div>
 </rubric-section>
 
@@ -77,6 +80,12 @@
     <div class="rubric-content">
         <p>I performed pretty well this spring. I fulfilled what I committed to and then some. I also unblocked my teammates wherever I could by spending hours on calls explaining concepts, giving them resources to research more, and even giving full on lectures</p>
         <p>I should have divided the tasks better. I should have made more configuration stories to avoid overextending my stories' bounds</p>
+    </div>
+</rubric-section>
+
+<rubric-section :name="'Extra'">
+    <div class="rubric-content">
+        <p>I had a more product focused mindset, going out of MY service's scope to better the product as a whole</p>
     </div>
 </rubric-section>
 </sprint>

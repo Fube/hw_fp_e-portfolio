@@ -2,9 +2,9 @@
 
 <rubric-section :name="'Links'">
     <div class="rubric-content">
-        <a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/4">Add user model</a>
-        <a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/13">Add user roles</a>
-        <a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/17">Use role service instead of repo</a>
+        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/4">Add user model</a></p>
+        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/13">Add user roles</a></p>
+        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/17">Use role service instead of repo</a></p>
     </div>
 </rubric-section>
 

@@ -4,8 +4,7 @@
     <div class="rubric-content">
         <a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/4">Add user model</a>
         <a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/13">Add user roles</a>
-        <a class="link link-secondary" href="        <a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/13">Add user roles</a>
-">Use role service instead of repo</a>
+        <a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/17">Use role service instead of repo</a>
     </div>
 </rubric-section>
 

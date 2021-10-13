@@ -87,22 +87,33 @@
     </div>
 </rubric-section>
 
+<rubric-section :name="'E2E Tests'">
+    <div class="rubric-content">
+        <p>There are no E2E tests for this sprint as Selenium was added to the project today (10/12/2021)</p>
+    </div>
+</rubric-section>
+
 <rubric-section :name="'Deployment'">
     <div class="rubric-content">
         <p>I am 100% sure that my story can be deployed through the CI/CD pipelines we have set-up</p>
-        <p>I did not partake in the deployment of my microservice to AWS (was there even a deployment?)</p>
-        <p>I changed the Dockerfile to a multi-stage, builder pattern, Dockerfile</p>
-        <p>I requested that all the other teams to also change their Dockerfiles to make deployment simpler though I do not think all teams complied with my request</p>
-        <p>I gave a short lecture about multi-stage Dockerfiles because no one knew what they were</p>
+        <p>
+            I added a GitHub action for my new mailer service (because it uses Go) to ensure that the code works before merging it into the master branch.
+            <image src="/images/sprint2_go_github_action.png" />
+        </p>
+        <p>
+            I found and fixed the issue with the Docker Gradle version (thanks Shariful for actually implementing the fix ❤️)
+            <image src="/images/sprint2_docker_gradle_version.png" />
+        </p>
     </div>
 </rubric-section>
 
 <rubric-section :name="'Scrum Roles'">
     <div class="rubric-content">
-        <p>I did not have a special scrum role, but I ended up being both product owner, scrum master, team lead, and manager to varying degrees</p>
-        <p>I was constantly bombarded with "should I do this?", "tell me what to do", "you make the call", etc. Not a very fun experience...</p>
-        <p>I constantly had to remind my SM and PO to fulfill their role, which is to be expected as this is the first sprint</p>
-        <p>I pushed the team for stand-ups as much as possible and ensured the SM took minutes which I was very happy with</p>
+        <p>I did not have a special scrum role</p>
+        <p>I was, thankfully, not bombarded with questions this sprint</p>
+        <p>I am very happy with my PO's (Jeremy) performance</p>
+        <p>I am dissatisfied with my SM's (Arianne) performance. The stand-ups were either not planned or if planned not followed through. Even when we HAD the stand-ups, the SM would have a 1-on-1 with each of us rather than sitting us down at a round-table. I tried pointing it out but nothing changed.</p>
+        <p>🎊I am happy to report though that the SM took minutes without me having to ask for it🎊</p>
     </div>
 </rubric-section>
 

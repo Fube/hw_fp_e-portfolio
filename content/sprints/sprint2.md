@@ -18,9 +18,10 @@
 <rubric-section :name="'User Story'">
     <div class="rubric-content">
         <p>I did a pretty poor job on the user stories</p>
-        <p>I should have gone more in-depth about the stories, the acceptance criteria and should've had a more detailed description of the user stories</p>
-        <p>I could've broken the tasks down more</p>
-        <p>Some of the stories were comically easy while others were so hard that we had to chop them down to UI only stories</p>
+        <p>They were decomposed a LOT better than last sprint, but there is still a lot to do. For example, the registration story was probably too much BUT at least the e-mail verification part of it was a separate story. Progress</p>
+        <p>As we saw in the retrospect, the acceptance criteria could be a whole lot better</p>
+        <p>The story point estimations were good in my opinion. For example, below you can see that for the FULL implementation of the mailer service, I gave 12 story points which I believe to be fair.</p>
+        <img src="/images/sprint2_mailer_epic.png"/>
     </div>
 </rubric-section>
 

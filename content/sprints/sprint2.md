@@ -119,14 +119,13 @@
 
 <rubric-section :name="'Progress'">
     <div class="rubric-content">
-        <p>I performed pretty well this spring. I fulfilled what I committed to and then some. I also unblocked my teammates wherever I could by spending hours on calls explaining concepts, giving them resources to research more, and even giving full on lectures</p>
-        <p>I should have divided the tasks better. I should have made more configuration stories to avoid overextending my stories' bounds</p>
-    </div>
-</rubric-section>
-
-<rubric-section :name="'Extra'">
-    <div class="rubric-content">
-        <p>I had a more product focused mindset, going out of MY service's scope to better the product as a whole</p>
+        <p>I performed spectacularly this sprint. I made a whole service AND integrated into auth AND implemented in TWO DAYS a task that my WHOLE TEAM was unable to implement in A MONTH.</p>
+        <p>I fulfilled what I committed to and then some. I also unblocked my teammates wherever I could by giving them guides, articles, and documentation to read.</p>
+        <p>
+            Here is the board from our sprint retrospective
+            <img src="/images/sprint2_retrospective.jpg" />
+        </p>
+        <p>From this board, what I can do better is exception handling over HTTP and acceptance criteria. Honestly, the rest does not apply to me.</p>
     </div>
 </rubric-section>
 </sprint>

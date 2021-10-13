@@ -35,6 +35,7 @@
             <img src="/images/sprint2_pull_138_code_comments_example.png">
         </p>
         <p>I followed the correct naming conventions for both branches and PRs, I made my stories on their own branches, and I reviewed other's codes as well as I could and requested changes wherever I felt it was necessary</p>
+        <p>I made a whole bunch of commits. My philosophy is "1 change = 1 commit". The reason why is simple: easier cherry-pick, reset, readability. And since we squash before merging, it won't make a big glob of commits on the master branch</p>
     </div>
 </rubric-section>
 
@@ -78,10 +79,10 @@
         <p>I reviewed code as best as I could and ensured my code was reviewed properly by checking in with the reviewers</p>
         <p>When I spotted suspicious code, I pulled and tested locally then checked the JaCoCo report</p>
         <p>
-            I added code comments (see below)
+            I added code comments & I started using code comments and asking questions (as opposed to giving commands as per Jason's instructions).
             <img src="/images/sprint2_pull_138_code_comments_example.png" />
         </p>
-        <p>I should've been more thorough with my check though because my reviewers overlooked a pretty big mistake I had made in one of my PRs</p>
+        <p>I ensured that my reviewers actually reviewed my code by asking questions about it in person after they had reviewed it</p>
     </div>
 </rubric-section>
 

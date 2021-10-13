@@ -27,4 +27,7 @@ module.exports = {
     },
   },
   plugins: [require('daisyui')],
+  purge: {
+    content: ['./content/**/*.md', './components/**/*.vue'],
+  },
 }

@@ -20,16 +20,20 @@
         <p>I did a pretty good job on the user stories. I decomposed them and added decent acceptance criteria (see below image)</p>
         <p>They were decomposed a LOT better than last sprint, but there is still a lot to do. For example, the registration story was probably too much BUT at least the e-mail verification part of it was a separate story. Progress</p>
         <p>As we saw in the retrospect, the acceptance criteria could be a whole lot better</p>
-        <p>The story point estimations were good in my opinion. For example, below you can see that for the FULL implementation of the mailer service, I gave 12 story points which I believe to be fair.</p>
-        <img src="/images/sprint2_mailer_epic.png"/>
+        <p>
+            The story point estimations were good in my opinion. For example, below you can see that for the FULL implementation of the mailer service, I gave 12 story points which I believe to be fair.
+            <img src="/images/sprint2_mailer_epic.png"/>
+        </p>
     </div>
 </rubric-section>
 
 <rubric-section :name="'Version Control'">
     <div class="rubric-content">
         <p>My use of GIT was even better than last time</p>
-        <p>I started using code comments and asking questions (as opposed to giving commands as per Jason's instructions)</p>
-        <img src="/images/sprint2_pull_138_code_comments_example.png">
+        <p>
+            I started using code comments and asking questions (as opposed to giving commands as per Jason's instructions)
+            <img src="/images/sprint2_pull_138_code_comments_example.png">
+        </p>
         <p>I followed the correct naming conventions for both branches and PRs, I made my stories on their own branches, and I reviewed other's codes as well as I could and requested changes wherever I felt it was necessary</p>
     </div>
 </rubric-section>
@@ -39,11 +43,9 @@
         <p>I used TDD to the best of my capabilities</p>
         <p>I always wrote my tests before the implementation (see below image for proof)</p>
         <img src="/images/sprint2_tdd_test_first_commit_history.png"/>
-        <p>I refactored a little too soon in many areas (force of habit), but I stopped whenever I caught myself doing it</p>
-        <p>All of my stories have in-depth tests associated with them</p>
         <p>
-            I have 100% coverage on my stories. I even added JaCoCo to the project to make sure
-            <img src="https://cdn.discordapp.com/attachments/777634949012389942/890224551756177438/image.png">
+            All of my stories have in-depth tests associated with them. You can check any of my PRs and see that I have more lines of test than code (see below image for proof)
+            <img src="/images/sprint2_more_test_than_code.png" />
         </p>
         <p>My approach is clearly documented by my commits which you can check by going to my branches commit history. You'll see that the test are always committed prior to the implementation</p>
     </div>

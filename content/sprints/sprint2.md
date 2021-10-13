@@ -1,16 +1,17 @@
 <sprint :name="'Sprint Two'">
 
 <rubric-section :name="'Links'">
+    <p class="text-center text-2xl"><span class="text-green-400">Feature</span> | <span class="text-red-600">Bug</span> | <span class="text-blue-400">Doc</span></p>
     <div class="rubric-content">
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/91">Add SMTP</a></p>
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/105">Add mail endpoint</a></p>
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/105">Integrate mailer</a></p>
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/127">Add Swagger</a></p>
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/145">Add missing Swagger doc folder</a></p>
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/146">Fix table names</a></p>
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/152">Register user</a></p>
-        <p><a class="link link-secondary" href="https://github.com/cgerard321/champlain_petclinic/pull/159">Email verification on register</a></p>
-        <p><a class="link link-secondary text-red-700" href="https://github.com/cgerard321/champlain_petclinic/pull/160">E-mail body not sending</a></p>
+        <p><a class="link link-secondary text-green-400" href="https://github.com/cgerard321/champlain_petclinic/pull/91">Add SMTP</a></p>
+        <p><a class="link link-secondary text-green-400" href="https://github.com/cgerard321/champlain_petclinic/pull/105">Add mail endpoint</a></p>
+        <p><a class="link link-secondary text-green-400" href="https://github.com/cgerard321/champlain_petclinic/pull/105">Integrate mailer</a></p>
+        <p><a class="link link-secondary text-blue-400" href="https://github.com/cgerard321/champlain_petclinic/pull/127">Add Swagger</a></p>
+        <p><a class="link link-secondary text-blue-400" href="https://github.com/cgerard321/champlain_petclinic/pull/145">Add missing Swagger doc folder</a></p>
+        <p><a class="link link-secondary text-red-600" href="https://github.com/cgerard321/champlain_petclinic/pull/146">Fix table names</a></p>
+        <p><a class="link link-secondary text-green-400" href="https://github.com/cgerard321/champlain_petclinic/pull/152">Register user</a></p>
+        <p><a class="link link-secondary text-green-400" href="https://github.com/cgerard321/champlain_petclinic/pull/159">Email verification on register</a></p>
+        <p><a class="link link-secondary text-red-600" href="https://github.com/cgerard321/champlain_petclinic/pull/160">E-mail body not sending</a></p>
     </div>
 </rubric-section>
 

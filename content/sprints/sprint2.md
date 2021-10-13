@@ -83,6 +83,7 @@
             <img src="/images/sprint2_pull_138_code_comments_example.png" />
         </p>
         <p>I ensured that my reviewers actually reviewed my code by asking questions about it in person after they had reviewed it</p>
+        <p>I kept a close eye on the naming of the PRs I reviewed (branch & PR name)</p>
     </div>
 </rubric-section>
 

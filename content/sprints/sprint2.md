@@ -53,12 +53,10 @@
 
 <rubric-section :name="'Code'">
     <div class="rubric-content">
-        <p>My code meets the criteria put forth in the story's acceptance criteria</p>
-        <p>I did my best to have the same look & feel as the already existing elements for my UI</p>
-        <p>My choice of data structures is, to me, judicious and I can easily explain as to why I chose a specific data structure > another</p>
-        <p>My choice of data structures is, to me, judicious and I can easily argue as to why if you want</p>
-        <p>I did not i18n my stories</p>
-        <p>I am 100% certain that the database compiles with the data model as I have extensive persistence tests which rely on FlyWay to migrate in-order to pass</p>
+        <p>My code meets the criteria put forth in the story's acceptance criteria. This is how I know what to write and when to merge. I always base myself on the AC</p>
+        <p>My choice of languages, i.e. Go is, to me, judicious. I chose it because of its speed and simplicity. The main reason I chose it is because of how easy it was to mock an SMTP server for my testing. Plus the Docker image is 33Mbs 😎😎😎</p>
+        <p>I did not i18n my stories </p>
+        <p>I am 100% certain that the database compiles with the data model as I have extensive persistence tests which rely on FlyWay to migrate in-order to pass PLUS manual tests</p>
         <p>I am certain that the data I handle is sync'd (because of my extensive tests)</p>
         <p>I ensured optimization of DB queries by using the JPABuddy plugin on IntelliJ</p>
     </div>

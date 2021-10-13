@@ -64,14 +64,23 @@
 
 <rubric-section :name="'Security'">
     <div class="rubric-content">
-        <p>I added Spring Security rules to limit access to my exposed endpoints</p>
+        <p>
+            Since I handled register, security played a big role. Firstly, I only exposed the needed routes (i.e. /users) and on those routes, I only exposed the exact HTTP method I needed. See below image
+            <img src="/images/sprint2_security_config.png" />
+        </p>
         <p>I used DTOs where I felt it was necessary</p>
+        <p>One thing I need to improve is the fact that we currently have no UUIDs so we're using the email (which is unique) in some areas which we really shouldn't be because although it is unique, it can change (e.g. a user can change their e-mail)</p>
     </div>
 </rubric-section>
 
 <rubric-section :name="'Reviews'">
     <div class="rubric-content">
         <p>I reviewed code as best as I could and ensured my code was reviewed properly by checking in with the reviewers</p>
+        <p>When I spotted suspicious code, I pulled and tested locally then checked the JaCoCo report</p>
+        <p>
+            I added code comments (see below)
+            <img src="/images/sprint2_pull_138_code_comments_example.png" />
+        </p>
         <p>I should've been more thorough with my check though because my reviewers overlooked a pretty big mistake I had made in one of my PRs</p>
     </div>
 </rubric-section>
